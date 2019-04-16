@@ -96,9 +96,10 @@ int main()
     
     //Textures load an image into the GPU Memory
     sf::Texture t1, t2, t3;
-    t1.loadFromFile("image/white.png");
-    t2.loadFromFile("image/white.png");
-    t3.loadFromFile("image/white.png");
+    t1.loadFromFile("/Users/michellelim/Desktop/images/white.png");
+    t2.loadFromFile("/Users/michellelim/Desktop/images/red.png");
+    // 1) change the image of the fruit
+    t3.loadFromFile("/Users/michellelim/Desktop/images/fox.png");
     
     //Sprite has physical dimmensions that can be set in
     //coordinate system, setPosition(x,y), and drawn on screen
